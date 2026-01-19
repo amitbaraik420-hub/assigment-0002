@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+nav{
+    width: 1250px;
+    height: 90px;
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
+    background: rgba(26, 11, 46, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 14px 180px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+button{
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    padding: 10px 13px 11px 13px;
+}
+.head{
+    color: #00FF88;
+    border: 1px solid var(--#00FF88, rgba(0, 255, 136, 1));
+    border-radius: 10000px;
+    
+}
+main{
+    width: 1250px;
+    height: 700px;
+    background-image: url(amit/assigment2/B13-A02-TechWave/assets/hero-bg.png);
+    margin: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 300px;
+    height: 300px;
+    border: 8px solid rgba(42, 24, 108, 1);
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    width: 1250px;
+    height: 500px;
+    background: rgba(26, 11, 46, 1);
+    margin: auto;
+    padding: 110px 200px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.main{
+     width: 840px;
+     height: 120px;
+    display: flex;
+    margin: 150px 180px;
+    
+}
+.box1,.box2,.box3,.box4{
+    gap: 20px;
+    padding: 10px;
+}
