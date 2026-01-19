@@ -33,13 +33,28 @@ button{
 }
 main{
     width: 1250px;
-    height: 700px;
+    height: 600px;
     background-image: url(amit/assigment2/B13-A02-TechWave/assets/hero-bg.png);
     margin: auto;
     background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.amit{
+width: 70px;
+height: 35px;
+box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+border-radius:15px;
+position: relative;
+left: 250px;
+bottom: 180px;
+background-color: #00FF88;
+}
+.amit h3{
+   text-align: center;
+   position: relative;
+   top: 5px;
 }
 
 .content{
@@ -51,6 +66,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
 }
 
 section{
@@ -138,8 +156,14 @@ img{
     padding: 100px 180px;
 }
 .card-contener h1{
-    margin: 15px;
+     margin: 15px;
     padding: 20px;
+    position: relative;
+    bottom: 60px;
+}
+.md{
+    text-align: center;
+    padding: 30px;
 }
 .card{
     display: flex;
@@ -191,4 +215,36 @@ img{
 .principal{
     align-content: center;
     padding: 3px;
+}
+
+footer{
+    width: 1250px;
+    height: 350px;
+    background-image: url(amit/assigment2/B13-A02-TechWave/assets/footer-bg.png);
+    margin: auto;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.images{
+    display: flex;
+   margin:auto;
+   position: relative;
+   right: 8px;
+   gap: 20px;
+}
+.footer{
+  width:400px;
+  height: 250px;
+  margin: 180px;
+  position: relative;
+  top: 50px;
+}
+.footer p{
+    text-align: center;
+}
+.crad1 h4{
+   margin: 15px;
 }
