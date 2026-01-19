@@ -77,3 +77,118 @@ p{
     gap: 20px;
     padding: 10px;
 }
+.mother{ 
+    width:850px;
+    height:500px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin: 150px auto;
+}
+.grid h1{
+    position: relative;
+    top: 50px;
+}
+
+.grid{
+    width: 1250px;
+    height: 800px;
+    background: rgba(35, 14, 61, 1);
+    margin: auto;
+}
+.topick1{
+    grid-row: span 2;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+     padding: 15px;
+}
+.topick2{
+    grid-column: span 2;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+     padding: 15px;
+}
+.topick3{
+    grid-column: span 2;
+    border-radius: 40px;
+     background: rgba(53, 17, 101, 0.4);
+      padding: 15px;
+}
+.topick4{
+    grid-column: span 2;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+     padding: 15px;
+}
+.topick5{
+    grid-column: span 1;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    padding: 15px;
+}
+img{
+    margin:15px 50px;
+}
+.card-contener{
+    width: 1250px;
+    height: 950px;
+    background: rgba(26, 11, 46, 1);
+    margin: auto;
+    padding: 100px 180px;
+}
+.card-contener h1{
+    margin: 15px;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    
+}
+ video{
+    border-radius: 24px 24px 0px 0px;
+    
+ }
+.crad1{
+    width: 300px;
+    height: 350px;
+    border-radius: 24px 24px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+   padding:0px;
+  
+}
+.crad1 h3,.card2 h3,.card3 h3{
+    color: green;
+    padding: 15px;
+     margin: 10px 40px;
+     background-image: url(amit/B13-A02-TechWave/assets/clock.png);
+     background-repeat: no-repeat;
+     display: flex;
+}
+.card2{
+    width: 300px;
+    height: 350px;
+    border-radius: 24px 24px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+    
+}
+.card3{
+    width: 300px;
+    height: 350px;
+    border-radius: 24px 24px 24px 24px;
+    background: rgba(37, 13, 68, 1);
+   
+}
+.resume{
+    width: 890px;
+    height: 250px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+}
+.principal{
+    align-content: center;
+    padding: 3px;
+}
