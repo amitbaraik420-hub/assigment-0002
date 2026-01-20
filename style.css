@@ -223,6 +223,7 @@ footer{
     background-image: url(amit/assigment2/B13-A02-TechWave/assets/footer-bg.png);
     margin: auto;
     background-size: 100%;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -247,4 +248,137 @@ footer{
 }
 .crad1 h4{
    margin: 15px;
+}
+.country{
+    display: flex;
+    position: relative;
+    top: 15px;
+    gap: 10px;
+}
+.icone{
+width: 39px;
+height: 39px;
+border-radius: 50%;
+border: 1px solid rgba(83, 60, 114, 1);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+@media screen and (max-width:576px) {
+              
+    nav{
+        width: 100%;
+        height: 120px;
+        flex-direction: column;
+    }
+    button{
+          border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    
+    }
+    main{
+        width: 100%;
+        height: 400px;
+        
+
+    }
+    section{
+        width: 100%;
+        height: 500px;
+          padding: 15px;
+    }
+    .main{
+    width: 100%;
+    height: 200px;
+    margin: 0px;
+    flex-direction: column;
+       
+        
+
+    }
+    .grid h1{
+        width: 100%;
+        font-size: small;
+    }
+ 
+      
+      
+      .grid{
+        width: 100%;
+        height: 850px;
+       
+      
+      }
+       .grid,.hello, .mother{
+        width: 100%;
+        
+        
+      }
+      .mother{
+          display: block;
+          gap: 15px;
+          margin: 0px;
+      }
+      .topick1,.topick2,.topick3,.topick4,.topick5{
+        grid-column: span 1;
+        grid-row: span 1;
+        padding: 0px;
+      }
+      .topick1 img{
+         margin: 0px;
+      }
+      .card-contener,.card,.resume{
+        width: 100%;
+
+      }
+      .card{
+         flex-direction: column;
+         align-items: center;
+         height: 1100px;
+      }
+       .card-contener{
+        padding: 0px;
+        height: 1800px;
+       }
+         .card-contener h1{
+            margin: 0px;
+            padding: 0px;
+
+         }
+         .crad1 h3{
+             margin: 0px;
+         }
+          .card2 h3{
+             margin: 0px;
+         }
+          .card3 h3{
+             margin: 0px;
+         }
+         .md{
+            width: 100%;
+         }
+         footer{
+            width: 100%;
+            height: 250px;
+            flex-direction: column;
+         }
+
+         .footer{
+            margin: 0px;
+              width:100%;
+              height: 150px;
+              position: relative;
+              left: 15px;
+              top: 10px;
+
+         }
+
+         .resume{
+            width: 300px;
+            height: 550px;
+            flex-direction: column;
+            align-items: center;
+         }
+
 }
